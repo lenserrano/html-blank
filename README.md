@@ -1,2 +1,2 @@
 # html-blank
-Blank HTML project with basic configurations to compile SASS
+Blank HTML project with basic configuration to compile SASS
