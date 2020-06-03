@@ -1,14 +1,86 @@
-div h1 {
-  font-size: 30px;
-  font-weight: 300;
-  text-transform: uppercase; }
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.main {
+  width: 100%; }
+  .main__hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/img/light-bulb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative; }
+    .main__hero-title {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 500;
+      text-transform: uppercase;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: #fafafa;
+      font-size: 40px; }
 
 #test-target {
   font-size: 16px;
-  color: palevioletred;
-  width: 500px;
+  width: 100%;
   text-align: justify;
   display: none; }
 
 .show {
   display: block !important; }
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 60px auto;
+  position: relative; }
+  .content__title {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333;
+    position: sticky;
+    top: 10px; }
+  .content__container {
+    margin: 30px 0 0 40px;
+    width: calc(100% - 40px); }
+    .content__container-content {
+      font-family: 'Oxygen', sans-serif;
+      font-weight: 300;
+      font-size: 16px; }
+    .content__container button {
+      background: transparent;
+      border: none;
+      font-family: 'Oxygen', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      border-bottom: 1px solid #bbbbbb;
+      cursor: pointer; }
+      .content__container button:focus {
+        outline: none; }
+
+.about {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 60px auto;
+  position: relative; }
+  .about__title {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333;
+    position: sticky;
+    top: 10px; }
+  .about__container {
+    margin: 30px 0 0 40px;
+    width: calc(100% - 40px); }
+    .about__container-content {
+      font-family: 'Oxygen', sans-serif;
+      font-weight: 300;
+      font-size: 16px; }

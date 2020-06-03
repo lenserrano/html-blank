@@ -4,18 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,400&family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
     <title>HTML-Blank</title>
 </head>
 <body>
-    <div><h1>Hello World!!</h1></div>
-    <button id="test">Click me!</button>
-    <div id="test-target">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Exercitationem soluta aliquam ex autem corrupti perferendis minus nemo suscipit 
-        doloribus asperiores fugit temporibus quas amet unde facere similique, aperiam 
-        vero nulla ab adipisci. Ipsum voluptas, commodi nihil voluptate aperiam enim 
-        asperiores suscipit esse dolorum, sequi obcaecati maiores excepturi corrupti, eum ad?
-        <button id="test-hide">Hide me!</button></div>
-
+    <section class="main">
+        <div class="main__hero">
+            <h1 class="main__hero-title">Frase en Hero - Image</h1>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about__title">
+            <p>Acerca</p>
+        </div>
+        <div class="about__container">
+            <div class="about__container-content">
+                <p>Esta es una página de prueba</p>
+                <ol>
+                    <li>Contiene configuración básica de Gulp</li>
+                    <li>Compila SCSS a CSS</li>
+                    <li>BrowseSync para ver los cambios sin refrescar la página</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="content__title">
+            <p>Contenido de prueba</p>
+        </div>
+        <div class="content__container">
+            <div class="content__container-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Aspernatur reiciendis vitae ut maxime repudiandae odit ipsa molestiae quod cupiditate fugiat.</p>
+                 <button id="test">Ver más</button>
+                 <div id="test-target">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Exercitationem soluta aliquam ex autem corrupti perferendis minus nemo suscipit 
+                    doloribus asperiores fugit temporibus quas amet unde facere similique, aperiam 
+                    vero nulla ab adipisci. Ipsum voluptas, commodi nihil voluptate aperiam enim 
+                    asperiores suscipit esse dolorum, sequi obcaecati maiores excepturi corrupti, eum ad?
+                    <button id="test-hide">Ver menos</button></div>
+            </div>
+        </div>
+    </section>
     <script src="./assets/js/test.js"></script>
 </body>
 </html>

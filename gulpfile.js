@@ -7,6 +7,7 @@ var sass        = require('gulp-sass');
 gulp.task('browser-sync', function() {
     //Archivos a observar
     var files = [
+    './assets/sass/*.scss',
     './style.css', //Nombre de salida del compilado de Sass
     './assets/js/*.js',
     ];
